@@ -1,0 +1,42 @@
+# Califia Farms
+
+> Califia Farms, LLC is a Los Angeles, California based plant-based beverage company founded in 2010 by Greg Steltenpohl. It makes non-dairy oatmilks, almondmilks and organic soymilks, coffee creamers, barista blends, cold brew coffees and teas, and ready-to-drink creamy refreshers, sold through grocery retail, foodservice distribution and direct-to-consumer channels in North America and Europe.
+
+<!--
+generated: '2026-08-08'
+method: generated
+source: apis.yml + repo artifacts (API Evangelist enrichment pipeline)
+note: Califia Farms does not publish an llms.txt. https://www.califiafarms.com/llms.txt
+      returned 404 on 2026-08-08. This file is an API Evangelist third-party index of
+      the company's public surface, not a document served by Califia Farms.
+-->
+
+## APIs
+
+Califia Farms publishes no public API, no developer portal, and no machine-readable API
+contract. Probes on 2026-08-08 of `api.`, `developer.`, `developers.` and `docs.califiafarms.com`
+did not resolve in DNS; `/openapi.json`, `/swagger.json`, `/api-docs`, `/.well-known/*`,
+`/llms.txt` and `/robots.txt` on both `www.califiafarms.com` and `www.califiafarms.co.uk`
+returned 404. The company GitHub organization exists but publishes zero repositories.
+
+## Company
+
+- [Califia Farms](https://www.califiafarms.com/): Company website (US), Gatsby on Netlify
+- [Califia Farms UK](https://www.califiafarms.co.uk/): Company website (UK/Europe)
+- [About Us](https://www.califiafarms.com/about-us/): Company history, mission and sustainability pillars
+- [Products](https://www.califiafarms.com/products/): Product catalog — plant milks, creamers, barista blends, coffees and teas
+- [Recipes](https://www.califiafarms.com/recipes/): Recipe library
+- [Where to Buy](https://www.califiafarms.com/where-to-buy/): Retail locator
+- [Press](https://www.califiafarms.com/press/): Press and news
+- [Contact Us](https://www.califiafarms.com/contact-us/): Consumer, trade and US foodservice contacts
+- [GitHub Organization](https://github.com/Califia-Farms): Company GitHub org (no public repositories)
+
+## Legal
+
+- [Terms of Use](https://www.califiafarms.com/terms-of-use/)
+- [Privacy Policy](https://www.califiafarms.com/privacy-policy/)
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/califia-farms/refs/heads/main/apis.yml): APIs.json 0.20 profile for Califia Farms
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/califia-farms/refs/heads/main/security/califia-farms-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture for califiafarms.com
