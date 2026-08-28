@@ -8,6 +8,17 @@ description: 'Califia Farms, LLC is a Los Angeles, California based plant-based 
   channels across North America and Europe. Its public web presence is a marketing,
   recipe and where-to-buy site built on Gatsby and hosted on Netlify; the company publishes
   no developer program, no API documentation, and no machine-readable API contract.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://avatars.githubusercontent.com/u/101840768?v=4
 url: https://raw.githubusercontent.com/api-evangelist/califia-farms/refs/heads/main/apis.yml
 x-type: company
